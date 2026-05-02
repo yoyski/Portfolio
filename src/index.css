@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+/* Makes the viewport resize when the keyboard opens on Android */
+@supports (height: 100dvh) {
+  body {
+    min-height: 100dvh;
+  }
+}
