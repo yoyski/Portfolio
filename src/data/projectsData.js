@@ -53,12 +53,12 @@ export const projectsData = [
     category: "Web Development",
   },
 
-  // QuizGame - update that can send file an AI generate questions and answers - what happen will AI scan the document and run the API post.createQuiz to generate questions and answersQuiz and send a json formatted response
+  // QuizGame
   {
     id: "QuizGame",
     title: "QuizGame",
     description:
-      "A quiz making application that allows user to create, take, and manage quizzes. It feautres a user-freindly interface for building building and taking quizzes, with results tracking.",
+      "A quiz making application that allows user to create, take, and manage quizzes. It features a user-friendly interface for building and taking quizzes, with results tracking.",
     tech: ["React", "Tailwind CSS", "Vite", "Express", "MongoDB"],
     link: "https://quiz-game-yoyski.vercel.app/",
     github: "https://github.com/yoyski/QuizGame",
@@ -74,7 +74,7 @@ export const projectsData = [
     id: "Personality-Test",
     title: "Personality Test",
     description:
-      "This is a game that will take you on a fun journey of self-discovery, helping you uncover the hidden super power within you — the unique strength that makes you stand out from everyone else",
+      "This is a game that will take you on a fun journey of self-discovery, helping you uncover the hidden super power within you — the unique strength that makes you stand out from everyone else.",
     tech: ["React", "Axios", "OpenWeather API"],
     link: "https://personality-test-yoyski.vercel.app/",
     github: "https://github.com/yoyski/PersonalityTest",
@@ -85,7 +85,7 @@ export const projectsData = [
     category: "Web Development",
   },
 
-  // Mini Projects
+  // Mini Projects — also tagged as Web Development so they show in both filters
   {
     id: "palindrome-checker",
     title: "Palindrome Checker",
@@ -98,7 +98,7 @@ export const projectsData = [
     image: "https://placehold.co/600x300/ec4899/ffffff?text=Palindrome+Checker",
     featured: false,
     aiContribution: 20,
-    category: "Mini Projects",
+    category: ["Web Development", "Mini Projects"],
   },
 
   {
@@ -114,7 +114,7 @@ export const projectsData = [
       "https://placehold.co/600x300/06b6d4/ffffff?text=WXCAST+—+Atmospheric+Intelligence",
     featured: false,
     aiContribution: 30,
-    category: "Mini Projects",
+    category: ["Web Development", "Mini Projects"],
   },
 
   {
@@ -129,7 +129,7 @@ export const projectsData = [
     image: "https://placehold.co/600x300/8b5cf6/ffffff?text=Memory+Card",
     featured: false,
     aiContribution: 10,
-    category: "Mini Projects",
+    category: ["Web Development", "Mini Projects"],
   },
 
   {
@@ -144,6 +144,6 @@ export const projectsData = [
     image: "https://placehold.co/600x300/14b8a6/ffffff?text=Counter",
     featured: false,
     aiContribution: 0,
-    category: "Mini Projects",
+    category: ["Web Development", "Mini Projects"],
   },
 ];

@@ -2,7 +2,7 @@ export const education = [
   {
     degree: "Bachelor of Science in Computer Engineering",
     school: "Northwest Samar State University",
-    period: "2022 – Present",
+    period: "2024 – Present",
     desc: "Currently in 3rd year, focusing on software development, data structures, algorithms, and web technologies. Building real-world projects and embracing AI-assisted development.",
   },
 ];
@@ -48,24 +48,38 @@ export const vibeCoding = [
 
 export const certifications = [
   {
-    title: "React Developer Certification",
-    issuer: "Meta",
+    title: "C Language Programming Essential",
+    issuer: "Cisco Networking Academy",
     date: "2023",
-    credentialId: "ABC123XYZ",
-    link: "https://example.com/cert",
   },
   {
-    title: "JavaScript Algorithms and Data Structures",
-    issuer: "freeCodeCamp",
-    date: "2022",
-    credentialId: "FCC-JS-2022",
-    link: "https://example.com/cert",
+    title: "DAY 1: CpE Fest - Hardware Basic",
+    issuer: "ICpEP.SE",
+    date: "2024",
   },
   {
-    title: "Web Development Bootcamp",
-    issuer: "Udemy",
-    date: "2021",
-    credentialId: "UC-WEB-2021",
-    link: "https://example.com/cert",
+    title: "DAY 2: CpE Fest - Networking Fundamentals",
+    issuer: "ICpEP.SE",
+    date: "2024",
+  },
+  {
+    title: "DAY 3: CpE Fest - Web & App Development",
+    issuer: "ICpEP.SE",
+    date: "2024",
+  },
+  {
+    title: "Champion in Quiz Bowl Competition",
+    issuer: "ICpEP.SE CPE CHALLENGE",
+    date: "2025",
+  },
+  {
+    title: "3rd Place in Breadboarding Competition",
+    issuer: "ICpEP.SE CPE CHALLENGE",
+    date: "2025",
+  },
+  {
+    title: "Participation in Quiz Bowl Competition",
+    issuer: "ICpEP.SE Region 8",
+    date: "2025",
   },
 ];
